@@ -1,0 +1,128 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Beatriz's Personal Site</title>
+    </head>
+    <body>
+        <table cellspacing="20"> 
+            <tr>
+                <td><img width="200px" src="Imagens/circle-cropped.png" alt="Foto de perfil de Beatriz"></td>
+                <td>
+                    <h1>Beatriz Gouveia</h1>
+                    <p><em>Aspirante a <strong>Programadora</strong></em></p>
+                    <p>Formada em Gastronomia e atualmente Analista de RH, quer uma mudança em sua vida 
+                        e descobriu um orgulho de si ao programar! </p>
+                      <span>Cursando <em>The complete Web Development Bootcamp</em></span> 
+                    </td>
+            </tr>
+        </table>
+       <!--podemos usar a formataçao de tabela, para organizar o layout da pag, vide ft e nome-->
+
+        <!--Adicionei uma imagem mostrando a tag img o source = fonte da minha imagem, e completo com o alt (alternative)
+        o qual exibe um texto alternativo em caso de problemas em exibir a imagem-->
+
+          <hr>
+        <h3>Educação</h3>
+       
+        <!--Para fazer uma lista não numerada usamos <ul> e em cada topico <li> se ouver topicos dentro dos topicos ai
+            abrimos um novo <ul> e novamente cada topico desse nivel sera iniciado pelo <li>-->
+        
+                <!--<ul> = unordered list
+                <il> = list item-->
+        <ul>
+            <li>Ensino Fundamental: <strong>Colégio Nossa Senhora de Fátima</strong></li>
+            <li>Ensino médio: <strong>ETEC Getúlio Vargas</strong></li>
+            <li>Curso técnico <em>Em Quimica</em>: <strong>ETEC Getúlio Vargas</strong></li>
+            <li>Graduação <em>Em Gastronomia</em>: <strong><a href= "https://portal.anhembi.br/">Universidade Anhembi Morumbi</a></strong></li>
+            <li>Curso Livre: <em><a href="https://www.udemy.com/">Udemy</a></em> <strong>The Complete Web Development Bootcamp</strong></li>
+        </ul>
+        <hr>
+        <h3>Hobbies</h3>
+        <!--Para criar uma lista numerada ou letra usamos a tag <ol> e novamente cada topico iniciaremos com a tag <li>
+            se houver topicos dentro da tag <li> abritemos uma nova tag <ol>
+            Outro ponto importante é que na tag <ol> nos podemos definir o começo da tag, sem indicar o começo ela iniciara em 1
+            Para mostrar o inicio da lista deve se escrever da seguinte forma: <ol start = "1", podendo usar qualquer outro numero
+            ou letra, sendo maiuscula ou minuscula -->
+
+                <!-- <ol> = ordered list-->
+        <ol>
+            <li>Cozinhar</li>
+            <li>Costurar</li>
+            <li>Pilates</li>
+            <li>Assistir filmes e séries</li>
+        </ol>
+
+        <hr>
+
+        <h3>Experiência</h3>
+
+        <!--Para criar tabelas usamos a tag <table>; a tag <tr> = table row, cria linha para a tabela, a tag <td> = table data, 
+            cria celula para a tabela. podemos dividir a tabela em 3 partes <thead> = table head (cabeçalho) que seria formatado
+            em negrito como titulos, <tbody> = table body, o corpo da tabela onde iram todas as informações e <tfoot> = table foot,
+            ou rodapé-->
+        <!--quando queremos criar o cabeçalho, ao inves de table data <td> usaremos <th> table header, mesma coisa pra a   
+            parte de rodape, usaremos <tf> table footer-->
+
+        <table cellspacing="10"> 
+            <thead> 
+                <tr>
+                    <th>Data</th>
+                    <th>Experiência</th>
+                    <th>Empresa</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>2015 - Atual</td>
+                    <td>Auxiliar/Analista</td>
+                    <td>Dist. de Frutas Gouveia LTDA.</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>Estagiária em Gastronomia</td>
+                    <td>D'avo Hipermercados LTDA.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        
+        <h3>Skills</h3>
+        <table cellspacing="10">
+            <!--Cellspacing usamos para dar espaço entre uma celula e outra, border usamos para marcar a borda, são
+            medidos em pixel ou %-->
+           <tr>
+               <td>
+                   <table cellspacing="10"><tr>
+                            <td>HTML</td>
+                            <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                            <td>CSS</td>
+                            <td>⭐</td>
+                             </tr>
+                     </table>  </td>
+               <td>
+                    <table cellspacing="5"><tr>
+                            <td>JavaScript</td>
+                            <td>⭐</td>
+                            </tr>
+                             <tr>
+                            <td>Cozinhar</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                            </tr> 
+                    </table></td>
+           </tr>   
+        </table>
+
+        <h3><a href="contact.html">Entre em contato</a></h3>
+
+    <!--Para abrir os emojis no mac use comand+control+space-->
+    </body>
+    </html>
+

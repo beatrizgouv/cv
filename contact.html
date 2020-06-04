@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contate-me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h3>Fale Comigo!</h3>
+    <ul>
+        <li><a href="https://www.gmail.com/">Gmail</a>: biiia.gouveia@gmail.com</li>
+        <li>Celular: (11) 97550-5864</li>
+    </ul>
+    <!--Vamos criar agora um formulario! Para isso devemos usar a tag <form> e dentro dela havera dois tipos de tag <label> 
+        seria em tradução literal o rotulo de cada espaço  a ser preenchido, ou seja, onde sera indicado com nome, senha, cidade
+        etc.. e com a tag <input> que existem diversos tipos e vao de botoes, caixas de texto, caixa de texto para senha (que nao 
+        mostra oq foi escrito) e varios outros tipos-->
+    <!--Fiz um doc em .html somente para estudos sobre tipos da tag <input> no doc input.html-->
+    <hr>
+
+    <h3>Entre em contato</h3>
+    
+    <form action="mailto:biiia.gouveia@gmail.com" method="POST" enctype="text/plain"> 
+        <label>Nome</label>
+        <input name="seu nome" type="text"> <br>
+        <label>Seu número de telefone</label>
+        <input name="seu telefone" type="tel"> <br>
+        <label>Seu E-mail</label>
+        <input name="seu e-mail" type="email"> <br>
+        <label>Site da empresa</label>
+        <input name="site" type="url"> <br>
+        <label>Escreva a sua mensagem:</label><br>
+        <textarea name="Sua Mensagem" rows="10" cols="35">Sua mensagem aqui</textarea><br>
+        <label>Enviar</label>
+        <input type="submit">
+    </form>
+</body>
+</html>
+<!--para criar uma nova pagina, criamos um novo arquivo .html na mesma pasta-->
+<!--basicamente, a pasta é o site e cada pagina é realmente uma pagina escrita-->
