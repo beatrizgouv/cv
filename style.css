@@ -1,0 +1,25 @@
+
+body{
+    background-color: #FAF2F2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+hr{
+   
+    border-style: dotted;
+    width: 6%;
+    height: 0px;
+    border-width: 0px 0px 10px ;
+    border-color:#f1d1d1;
+}
+h1{
+    color: #7D5A5A;
+    text-shadow: 1px 1px 1px #f1d1d1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    color: #7D5A5A;
+}
