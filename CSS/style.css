@@ -1,8 +1,11 @@
 
+/* Quando um elemeto tem varias formas do CSS, como inline, internal e external, o codigo le como prioridade 
+o inline, depois internal e finalmente o external */
+
 body{
     background-color: #FAF2F2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+   
 }
 
 
